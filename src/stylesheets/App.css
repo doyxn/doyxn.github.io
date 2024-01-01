@@ -1,23 +1,25 @@
 * {
   box-sizing: border-box; 
+  background-color: #eaeaea;
 }
 
 .container {
-  margin: 1rem;
+  /* margin: 1rem; */
   text-align: center;
+  padding: 0 4rem;
 }
 
 .App {
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
 .App-header {
-  background-color: #d4d4d4;
+  background-color: #eaeaea;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,9 +28,22 @@
   font-size: calc(10px + 2vmin);
   color: #2e2f33;
 }
+/* Add this style for the new structure */
+.App .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-.App-link {
-  color: #61dafb;
+/* Adjust margin or padding as needed */
+.App .text {
+  margin-right: 20px; /* Example margin, adjust as needed */
+}
+
+.App .profile-image img {
+  width: 15rem; /* Adjust the width as needed */
+  height: auto;
+  border-radius: 10%; /* Optional: For a circular profile image */
 }
 
 .nav {
@@ -69,7 +84,7 @@
 }
 
 .nav li.active {
-  background-color: #fbf4ea;
+  /* background-color: #fbf4ea; */
   color: #ffc800;
   border-radius: 5px;
 }
