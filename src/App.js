@@ -5,6 +5,8 @@ import Projects from "./components/pages/Projects"
 import Experience from "./components/pages/Experience"
 //import Error404 from "./components/Error404"
 import './stylesheets/App.css';
+import { Route, Routes} from "react-router-dom"
+
 
 function App() {
   // return (
@@ -21,26 +23,18 @@ function App() {
   //     </header>
   //   </div>
   // );
-      // let Component 
-      // switch(window.location.pathname) {
-      //   case "/":
-      //     Component = App;
-      //     break
-      //   case "/Home":
-      //     Component = Home;
-      //     break
-      //   case "/About":
-      //     Component = About;
-      //     break
-      //   case "/Projects":
-      //     Component = Projects;
-      //     break
-      //   case "/Experience":
-      //     Component = Experience;
-      //     break
-      // }
   return ( 
-    <Navbar />
+    <>
+      <Navbar />
+      <div className = "container">
+        <Routes>
+          <Route  path="/pages/Home" element={ <Home />} />
+          <Route  path="/pages/About" element={ <About />} />
+          <Route  path="/pages/Projects" element={ <Projects />} />
+          <Route  path="/pages/Experience" element={ <Experience />} />
+        </Routes>
+      </div>
+    </>
   )
 }
 

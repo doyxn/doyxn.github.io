@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box; 
+}
+
+.container {
+  margin: 1rem;
+  text-align: center;
+}
 
 .App {
   text-align: center;
@@ -9,7 +17,7 @@
 }
 
 .App-header {
-  background-color: #d9d2c8;
+  background-color: #d4d4d4;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,16 +32,19 @@
 }
 
 .nav {
-  background-color: #d9d2c8;
+  background-color: #eaeaea;
   color: #2e2f33;
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
   gap: 2rem;
   padding: 0 1rem;
+  /* border-bottom: 2px solid #2e2f33; */
+
 }
 .site-title {
   font-size: 2rem;
+  color: black;
 }
 
 .nav ul {
@@ -54,12 +65,12 @@
 }
 
 .nav li:hover {
-  background-color: #6f8c70;
-  color: #d9d2c8;
+  color: #6f8c70;
 }
 
 .nav li.active {
-  background-color: #ffc800;
-  color: #1a1a1a;
+  background-color: #fbf4ea;
+  color: #ffc800;
+  border-radius: 5px;
 }
 

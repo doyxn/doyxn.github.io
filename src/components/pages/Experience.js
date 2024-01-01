@@ -1,3 +1,3 @@
 export default function Experience() {
-    <h1> Experience / Blog / Thoughts</h1>
+    return <h1> Experience / Blog / Thoughts</h1>
 }
