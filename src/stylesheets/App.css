@@ -6,7 +6,7 @@
 .container {
   /* margin: 1rem; */
   text-align: center;
-  padding: 0 4rem;
+  padding: 0 16rem;
 }
 
 .App {
@@ -25,7 +25,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* font-size: calc(10px + 2vmin); */
   color: #2e2f33;
 }
 /* Add this style for the new structure */
@@ -89,3 +89,65 @@
   border-radius: 5px;
 }
 
+
+/* Card Components seen in Card.js */
+
+.card-container {
+  width: 300px; 
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  transition: 0.5s;
+  animation: ease-in;
+  justify-content:space-around;
+  margin: 1rem;
+}
+
+.card-container:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+}
+
+.card-image-container img{
+  overflow: hidden;
+  height: 200px;
+}
+
+.card-content{
+  margin: 1rem;
+  margin-top: 0.5rem;
+}
+
+h3,p {
+  margin: 0;
+  padding: 0;
+}
+
+.card-title{
+  margin-bottom: 0.5 rem;
+}
+
+.card-btn {
+  display: flex;
+  justify-content: center;
+
+}
+
+.card-btn button {
+  padding: 0.5rem;
+  background-color: inherit;
+  transition: 0.2s;
+  border: none;
+  margin-bottom: 0.5 rem;
+  border-radius: 5px;
+}
+
+.card-btn button:hover{
+  background: rgba(27, 156, 252, 0.1);
+}
+
+a {
+  text-transform: uppercase;
+  color: #1a1a1a;
+  text-decoration: none;
+  font-weight: bold;
+}

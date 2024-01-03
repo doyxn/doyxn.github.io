@@ -1,4 +1,5 @@
 import profileImage from "../images/1700146765465.jpg"
+import socialIcon_GitHub from "../images/icons/github-mark.png"
 
 export default function About() {
     return (
@@ -13,13 +14,18 @@ export default function About() {
                         I bring those solutions to life through computer science, transforming
                         ideas into tangible creations.
                     </p>
-                    <p stle={{ fontSize: "14px"}}>
+                    <p >
                     Find my current projects and experiences below.
                     </p>
                 </div>
                 <div className="profile-image">
                     <img src={profileImage} alt="Profile" />
                 </div>
+
+                <div className="social-icons">
+                    <img src={socialIcon_GitHub} alt="GitHub"/>
+                </div>
+
                 </div>
             
           </header>
