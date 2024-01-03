@@ -6,7 +6,7 @@
 .container {
   /* margin: 1rem; */
   text-align: center;
-  padding: 0 16rem;
+  padding: 0 5rem;
 }
 
 .App {
@@ -22,7 +22,6 @@
   background-color: #eaeaea;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   /* font-size: calc(10px + 2vmin); */
@@ -31,21 +30,47 @@
 /* Add this style for the new structure */
 .App .content {
   display: flex;
+  /* flex-direction: column-reverse; */
   justify-content: space-between;
   align-items: center;
+}
+
+@media (max-width: 50rem) {
+  .App .content{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .App .text {
+    margin-left: 0rem;
+    margin-right: 0;
+    margin-bottom: 1.25rem;
+  }
+
+  .App .profile-image img {
+    margin-left: 0;
+    max-width: 100%;
+    transition: max-height 0.3s ease-in-out;
+  }
+
+  .App .profile-image img.column-mode {
+    max-height: 12.5rem;
+  }
 }
 
 /* Adjust margin or padding as needed */
 .App .text {
   margin-right: 20px; /* Example margin, adjust as needed */
+  margin-left: 1.25rem;
 }
 
 .App .profile-image img {
-  width: 15rem; /* Adjust the width as needed */
+  width: 18rem; /* Adjust the width as needed */
   height: auto;
   border-radius: 10%; /* Optional: For a circular profile image */
 }
 
+/* Navbar Components as seen in Navbar.js */
 .nav {
   background-color: #eaeaea;
   color: #2e2f33;
@@ -151,6 +176,7 @@ a {
   text-decoration: none;
   font-weight: bold;
 }
+/* Footer content -> Footer.js */
 
 .footer-container {
   display: flex;
