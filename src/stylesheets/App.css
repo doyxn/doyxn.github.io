@@ -83,7 +83,7 @@
 
 }
 .site-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: black;
 }
 
@@ -114,6 +114,17 @@
   border-radius: 5px;
 }
 
+/* media query for smaller screens */
+@media (max-width: 50rem) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  ul {
+    margin-top: 1rem;
+  }
+}
 
 /* Card Components seen in Card.js */
 
@@ -185,9 +196,6 @@ a {
   padding: 0  8rem;
 }
 
-.footer-text {
-
-}
 
 .footer-icons {
   display: flex;
@@ -198,4 +206,12 @@ a {
   width: 20px;
   height: auto;
   margin-left: 1rem;
+}
+
+/* Projects styles */
+
+.projects-card-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
 }
