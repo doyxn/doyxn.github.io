@@ -151,3 +151,25 @@ a {
   text-decoration: none;
   font-weight: bold;
 }
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0  8rem;
+}
+
+.footer-text {
+
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+}
+
+.footer-icons img{
+  width: 20px;
+  height: auto;
+  margin-left: 1rem;
+}

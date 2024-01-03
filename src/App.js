@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
 import Home from "./components/pages/Home"
 import About from "./components/pages/About"
 import Projects from "./components/pages/Projects"
@@ -34,6 +35,7 @@ function App() {
           <Route  path="/pages/Experience" element={ <Experience />} />
         </Routes>
       </div>
+      <Footer />
     </>
   )
 }

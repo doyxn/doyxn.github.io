@@ -1,6 +1,4 @@
 import profileImage from "../images/1700146765465.jpg"
-import socialIcon_GitHub from "../images/icons/github-mark.png"
-
 export default function About() {
     return (
         <div className="App">
@@ -20,10 +18,6 @@ export default function About() {
                 </div>
                 <div className="profile-image">
                     <img src={profileImage} alt="Profile" />
-                </div>
-
-                <div className="social-icons">
-                    <img src={socialIcon_GitHub} alt="GitHub"/>
                 </div>
 
                 </div>
