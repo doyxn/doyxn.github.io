@@ -41,7 +41,7 @@
     align-items: center;
   }
 
-  .App .text {
+  .App .about-text {
     margin-left: 0rem;
     margin-right: 0;
     margin-bottom: 1.25rem;
@@ -59,9 +59,14 @@
 }
 
 /* Adjust margin or padding as needed */
-.App .text {
+.App .about-text {
   margin-right: 20px; /* Example margin, adjust as needed */
   margin-left: 1.25rem;
+  /* Add border to the left and right */
+  border-left: 2px solid #565e80; /* Adjust the color and thickness as needed */
+  border-right: 2px solid #565e80; /* Adjust the color and thickness as needed */
+  padding-left: 10px; /* Adjust the padding as needed */
+  padding-right: 10px; /* Adjust the padding as needed */
 }
 
 .App .profile-image img {
@@ -79,6 +84,7 @@
   align-items: center;
   gap: 2rem;
   padding: 0 1rem;
+  padding-top: 1.5rem;
   /* border-bottom: 2px solid #2e2f33; */
 
 }
@@ -118,7 +124,7 @@
 @media (max-width: 50rem) {
   .nav {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
 
   ul {
@@ -136,6 +142,8 @@
   animation: ease-in;
   justify-content:space-around;
   margin: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-container:hover {
@@ -170,7 +178,6 @@ h3,p {
 
 .card-btn button {
   padding: 0.5rem;
-  background-color: inherit;
   transition: 0.2s;
   border: none;
   margin-bottom: 0.5 rem;
@@ -190,10 +197,14 @@ a {
 /* Footer content -> Footer.js */
 
 .footer-container {
+  /* position: fixed;
+  bottom: 0;
+  left: 0; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0  8rem;
+  padding-top: 1.5rem;
 }
 
 
@@ -214,4 +225,5 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: .5rem;
+  align-items: stretch;
 }

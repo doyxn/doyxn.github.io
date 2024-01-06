@@ -1,3 +1,13 @@
+import Carousel from "../Carousel"
+
 export default function Experience() {
-    return <h1> Experience / Blog / Thoughts</h1>
+    
+    return (
+        <div className="Experience">
+            <div>
+                <Carousel />
+            </div>
+
+        </div>
+    )
 }

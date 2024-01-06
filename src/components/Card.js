@@ -1,5 +1,5 @@
 import "../stylesheets/App.css"
-export default function Card({title, imageUrl, body}) {
+export default function Card({title, imageUrl, body, link}) {
     return (
         <div className="card-container">
             <div className="card-image-container">
@@ -16,7 +16,7 @@ export default function Card({title, imageUrl, body}) {
             
             <div className= "card-btn">
                 <button> 
-                    <a> View More</a>
+                    <a href={link} target="_blank" rel="noopener noreferrer"> View More</a>
                 </button>
             </div>
         </div>

@@ -1,0 +1,43 @@
+/* Carousel.css */
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f8f9fa; /* Set a background color for the carousel */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  }
+  
+  .slide {
+    display: none;
+    width: 100%;
+    transition: opacity 0.5s;
+    padding: 20px; /* Add padding for better spacing inside the slide */
+    text-align: center; /* Optional: Center the content horizontally */
+  }
+  
+  .slide.active {
+    display: block;
+    opacity: 1;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .left {
+    left: 10px;
+  }
+  
+  .right {
+    right: 10px;
+  }
+  
