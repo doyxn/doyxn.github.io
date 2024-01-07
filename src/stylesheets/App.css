@@ -194,26 +194,36 @@ a {
   text-decoration: none;
   font-weight: bold;
 }
+a:hover {
+  background: rgba(27, 156, 252, 0.1);
+}
 /* Footer content -> Footer.js */
 
 .footer-container {
-  /* position: fixed;
+  /* position: fixed; */
   bottom: 0;
-  left: 0; */
+  left: 0;
+  right: 0;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   padding: 0  8rem;
   padding-top: 1.5rem;
 }
 
-
+.footer-container p {
+  margin: 0;
+}
 .footer-icons {
   display: flex;
-  align-items: center;
+  align-items: right;
+}
+
+.footer-icons a {
+  margin-left: 1rem;
 }
 
 .footer-icons img{
+  right: 0;
   width: 20px;
   height: auto;
   margin-left: 1rem;

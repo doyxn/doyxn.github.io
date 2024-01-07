@@ -1,10 +1,11 @@
-import profileImage from "../images/404.png"
+
 import bbe from "../images/p-b/blackboilermakerexperience.png"
 import qkit from "../images/p-b/qiskit-logo.png"
 import portfolio from "../images/p-b/portfolio.png"
 import Card from "../Card"
 
 export default function Projects() {
+   
    return (
       <div style={{ marginBottom: "1rem", marginTop: "1rem"}} >
          {/* <h1 style={{ textAlign: "left"}}> DIRECTORY: </h1> */}
@@ -22,11 +23,11 @@ export default function Projects() {
                   body="Built on React and deployed on GitHub pages. "
                   link="https://github.com/doyxn/doyxn.github.io/tree/main"
                   />
-                  <Card 
+                  {/* <Card 
                   title="Arduino Pomodoro Clock"
                   imageUrl={profileImage}
                   body=""
-                  />
+                  /> */}
                <Card 
                   title="BBE Trailer Video"
                   imageUrl={bbe}

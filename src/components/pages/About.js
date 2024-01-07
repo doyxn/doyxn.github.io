@@ -36,7 +36,7 @@ export default function About() {
 
                     </p>
                     <p >
-                    Find my current projects and experiences below.
+                    
                     </p>
                 </div>
 
