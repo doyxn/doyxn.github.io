@@ -65,6 +65,7 @@ export default function Experience() {
           currentSlide={currentSlide}
           nextSlide={nextSlide}
           prevSlide={prevSlide}
+          setCurrentSlide={setCurrentSlide}
         />
       </div>
     </div>

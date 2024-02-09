@@ -1,3 +1,4 @@
+import heartImage from "./images/beating_heart.png"
 import linkedinIcon from "./images/icons/linkedin.svg"
 import githubIcon from "./images/icons/github-square.svg"
 import leetcodeIcon from "./images/icons/leetcode.svg"
@@ -7,7 +8,7 @@ export default function Footer() {
 
     return (
         <div className = "footer-container">
-            <p>Adedoyin A. Famuyiwa</p>
+            <p>Made with <img src ={heartImage} alt="love"/> by Adedoyin A. Famuyiwa</p>
             <div className = "footer-icons">
                 <a href="https://linkedin.com/in/aafamuyi" target="_blank" rel="noreferrer"> 
                     <img src={linkedinIcon} alt="linkedin"/>
