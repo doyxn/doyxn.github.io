@@ -2,6 +2,15 @@ import {useState, useEffect} from 'react';
 import profileImage from "../images/profile.jpg"
 export default function About() {
         const [isColumnMode, setColumnMode] = useState(false);
+        const [selectedHobby, setSelectedHobby] = useState(false);
+
+        const handleHobbyClick = (hobby) =>{
+            setSelectedHobby(hobby);
+        };
+
+        const handleClose = () => {
+            setSelectedHobby(null);
+        }
 
         useEffect(() => {
             const handleResize = () => {
@@ -36,10 +45,10 @@ export default function About() {
                     <p >
                      My current hobbies include: 
                      <ul className="content-list">
-                        <li>Reading  </li>
-                        <li>Creating & Building Lego Sets</li>
-                        <li>Origami</li>
-                        <li>Watching Travel Documentaries</li>
+                        <li><a href="#" onClick={() => handleHobbyClick("Reading")}>Reading</a></li>
+                        <li><a href="#" onClick={() => handleHobbyClick("Lego Sets")}>Creating & Building Lego Sets</a></li>
+                        <li><a href="#" onClick={() => handleHobbyClick("Origami")}>Origami</a></li>
+                        <li><a href="#" onClick={() => handleHobbyClick("Watching Travel Documentaries")}>Watching Travel Documentaries</a></li>
                      </ul>
                     </p>
                 </div>
@@ -47,6 +56,13 @@ export default function About() {
                 </div>
             
           </header>
+          {selectedHobby && (
+            <div className="floating-card">
+                <button className="close-button" onClick={handleClose}>[x]</button>
+                <h2 style={{ backgroundColor:"#d4d4d4" }}>{selectedHobby}</h2>
+                <p  style={{ backgroundColor:"#d4d4d4" }}>MORE INFORMATION GOES HERE PLEASE</p>
+            </div>
+          )}
         </div>
       );
 

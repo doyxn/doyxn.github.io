@@ -24,7 +24,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* font-size: calc(10px + 2vmin); */
   color: #2e2f33;
 }
 /* Add this style for the new structure */
@@ -56,17 +55,21 @@
   .App .profile-image img.column-mode {
     max-height: 12.5rem;
   }
+
+  .about-text ul {
+    margin-left: 0rem;
+  }
 }
 
 /* Adjust margin or padding as needed */
 .App .about-text {
-  margin-right: 20px; /* Example margin, adjust as needed */
+  margin-right: 1.25rem; /* Example margin, adjust as needed */
   margin-left: 1.25rem;
   /* Add border to the left and right */
-  border-left: 2px solid #565e80; /* Adjust the color and thickness as needed */
-  border-right: 2px solid #565e80; /* Adjust the color and thickness as needed */
-  padding-left: 10px; /* Adjust the padding as needed */
-  padding-right: 10px; /* Adjust the padding as needed */
+  border-left: 0.125rem solid #ffc800; /* Adjust the color and thickness as needed */
+  border-right: 0.125rem solid #ffc800; /* Adjust the color and thickness as needed */
+  padding-left: 0.625rem; /* Adjust the padding as needed */
+  padding-right: 0.625rem; /* Adjust the padding as needed */
 }
 
 .App .profile-image img {
@@ -76,18 +79,47 @@
 }
 /** About  **/
 .about-text ul {
-  margin-left: 15rem;
-}
-.about-text li {
-  text-indent: -15rem;
-}
-
-.about-text ul {
   list-style-image: url('../components/images/seedlings/seedling16x16.png');
   width: auto;
   height: auto;
-  padding-left: 20px;
+  padding-left: 1.25rem;
 }
+
+.about-text li {
+  /* text-indent: -15rem; */
+  position: inherit;
+  cursor: pointer;
+}
+
+.floating-card {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #d4d4d4 ;
+  padding: 1.25rem;
+  border: 1/16rem;
+  border-radius: 5px;
+  box-shadow: 0 2ox 4px regba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #f00;
+}
+
+.close-button:hover {
+  color: #444;
+}
+
+
 /* Navbar Components as seen in Navbar.js */
 .nav {
   background-color: #eaeaea;
@@ -98,8 +130,6 @@
   gap: 2rem;
   padding: 0 1rem;
   padding-top: 1.5rem;
-  /* border-bottom: 2px solid #2e2f33; */
-
 }
 .site-title {
   font-size: 1.5rem;
@@ -130,7 +160,7 @@
 .nav li.active {
   /* background-color: #fbf4ea; */
   color: #ffc800;
-  border-radius: 5px;
+  border-radius: 0.313rem;
 }
 
 /* media query for smaller screens */
@@ -148,9 +178,9 @@
 /* Card Components seen in Card.js */
 
 .card-container {
-  width: 300px; 
+  width: 18.75rem; 
   overflow: hidden;
-  box-shadow: 0px 0px 15px -5px;
+  box-shadow: 0rem 0rem .938rem -0.313rem;
   transition: 0.5s;
   animation: ease-in;
   justify-content:space-around;
@@ -161,12 +191,12 @@
 
 .card-container:hover {
   transform: scale(1.1);
-  box-shadow: 0px 0px 15px 0px;
+  box-shadow: 0cap 0rem .938rem 0rem;
 }
 
 .card-image-container img{
   overflow: hidden;
-  height: 200px;
+  height: 12.5rem;
 }
 
 .card-content{
@@ -194,7 +224,7 @@ h3,p {
   transition: 0.2s;
   border: none;
   margin-bottom: 0.5 rem;
-  border-radius: 5px;
+  border-radius: 0.313rem;
 }
 
 .card-btn button:hover{
@@ -234,7 +264,7 @@ a {
 
 .footer-icons img{
   right: 0;
-  width: 20px;
+  width: 1.25rem;
   height: auto;
   margin-left: 1rem;
 }
