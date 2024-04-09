@@ -1,7 +1,7 @@
 // Experience.js
 import React, { useState } from 'react';
 import Carousel from "../Carousel"; // Adjust the import path based on your project structure
-import "../../stylesheets/Carousel.css"; // Import common styling
+
 
 export default function Experience() {
   const experienceData = [
@@ -57,16 +57,24 @@ export default function Experience() {
     setCurrentSlide((prev) => (prev === 0 ? experienceData.length - 1 : prev - 1));
   };
 
+  const allCompanies = experienceData.map(experience => experience.company);
+
   return (
-    <div className="Experience">
-      <div className="experience-carousel-content">
-        <Carousel
-          experienceData={experienceData}
-          currentSlide={currentSlide}
-          nextSlide={nextSlide}
-          prevSlide={prevSlide}
-          setCurrentSlide={setCurrentSlide}
-        />
+    <div className = "App">
+      <div className = "App-header">
+        <div className="Experience">
+          
+          <div className="experience-carousel-content">
+            
+            <Carousel
+              experienceData={experienceData}
+              currentSlide={currentSlide}
+              nextSlide={nextSlide}
+              prevSlide={prevSlide}
+              setCurrentSlide={setCurrentSlide}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

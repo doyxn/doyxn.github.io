@@ -1,6 +1,6 @@
 .carousel-container {
-  width: 50%; /* Adjust the width to your desired size */
-  height: 50vh;
+  width: 87%; /* Adjust the width to your desired size */
+  height: 60vh;
   margin: auto; /* Center the carousel horizontally */
   overflow: hidden;
   box-shadow: 0px 0px 15px -5px;
@@ -12,6 +12,7 @@
   margin-top: 5rem;
   box-sizing: border-box; /* Ensure padding and border don't affect the width */
   position: relative;
+  background-color: #ffffff
 }
 
 .carousel-container:hover {
@@ -24,15 +25,31 @@
   margin-top: 0.5rem;
   width: 100%; /* Make sure the content takes the full width of the container */
   box-sizing: border-box; /* Ensure padding and border don't affect the width */
+  background-color: #ffffff
 }
 
-h3, p {
+.carousel-body {
+  background-color: white;
+}
+
+#carousel-text{
   margin: 0;
   padding: 0;
+  background-color: #ffffff;
 }
 
 .carousel-title {
   margin-bottom: 0.5 rem;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+.carousel-title:hover {
+  text-decoration: underline #0e67ed;
+}
+
+.carousel-skills, strong {
+  background-color: #ffffff;
 }
 
 .carousel-skills ul {
@@ -40,6 +57,11 @@ h3, p {
   width: auto;
   height: auto;
   padding-left: 20px;
+  background-color: #ffffff;
+}
+
+.carousel-skills li {
+  background-color: #ffffff;
 }
 
 .carousel-buttons {
