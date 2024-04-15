@@ -1,55 +1,69 @@
 .carousel-container {
-  width: 87%; /* Adjust the width to your desired size */
+  width: 87%; 
   height: 60vh;
-  margin: auto; /* Center the carousel horizontally */
-  overflow: hidden;
+  margin: auto; 
   box-shadow: 0px 0px 15px -5px;
-  transition: 0.5s;
-  animation: ease-in;
-  justify-content: space-around;
-  margin: 1rem auto; /* Adjust the margin for top and bottom */
-  display: flex;
+  margin: 1rem auto; 
   margin-top: 5rem;
-  box-sizing: border-box; /* Ensure padding and border don't affect the width */
+  box-sizing: border-box; 
+  background-color: #ffffff;
+  border-radius: 2rem;
+  display: flex;
   position: relative;
-  background-color: #ffffff
-}
-
-.carousel-container:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0px 15px 0px;
 }
 
 .carousel-content {
   margin: 1rem;
   margin-top: 0.5rem;
-  width: 100%; /* Make sure the content takes the full width of the container */
-  box-sizing: border-box; /* Ensure padding and border don't affect the width */
+  width: 100%; 
+  box-sizing: border-box; 
   background-color: #ffffff
 }
 
-.carousel-body {
+.tab-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  display: flex;
+  background-color: #ffffff;
+  justify-content: flex-start;
+  border-radius: 2rem;
+  z-index: 1;
+  margin-top: 0.625rem;
+  margin-left: 0.625rem;
+}
+
+.tab {
   background-color: white;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.tab:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.tab.active {
+  color: grey;
+  text-decoration: underline #0e67ed;
 }
 
 #carousel-text{
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
+  background-color: white;
 }
 
-.carousel-title {
-  margin-bottom: 0.5 rem;
-  text-align: left;
+.carousel-title h3 {
   background-color: #ffffff;
+  padding-top: 2rem;
+  text-align: left;
 }
 
 .carousel-title:hover {
-  text-decoration: underline #0e67ed;
-}
-
-.carousel-skills, strong {
-  background-color: #ffffff;
+  color: #0e67ed;
 }
 
 .carousel-skills ul {
@@ -57,46 +71,19 @@
   width: auto;
   height: auto;
   padding-left: 20px;
+  text-align: left;
   background-color: #ffffff;
 }
+
+
+.carousel-skills {
+  text-align: left;
+  background-color: white;
+}
+
 
 .carousel-skills li {
-  background-color: #ffffff;
+  background-color: white;
+  margin-left: 3rem;
 }
 
-.carousel-buttons {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.button-arrow {
-  background: none;
-  border: none;
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-.indicators {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.indicator-buttons {
-  border: none;
-  cursor: pointer;
-}
-
-.indicators > button {
-  margin: 5px;
-  background: none;
-}
-
-.indicator-symbol {
-  color: #6f8c70;
-}
-
-.indicator-symbol-active {
-  color: #ffc800;
-}

@@ -1,12 +1,11 @@
-// Experience.js
 import React, { useState } from 'react';
-import Carousel from "../Carousel"; // Adjust the import path based on your project structure
+import Carousel from "../Carousel"; 
 
 
 export default function Experience() {
   const experienceData = [
     {
-        company: 'The Sparks Foundation',
+        company: 'TSF',
         position: 'Graduate Rotational Intern',
         duration: 'June 2023 - July 2023',
         link: 'https://example.com/sparks-foundation',    
@@ -14,7 +13,7 @@ export default function Experience() {
         skills: ['Nvidia Jetson', 'Data Structures', 'Machine Automation'],
       },
       {
-        company: 'Ware Research Group',
+        company: 'Ware RG',
         position: 'Undergraduate Research Assistant',
         duration: 'Fall 2021 - Spring 2022',
         link: 'https://example.com/ware-research-group',
@@ -22,7 +21,7 @@ export default function Experience() {
         skills: [],
       },
       {
-        company: 'JPMorgan Chase & Co.',
+        company: 'JPMorgan',
         position: 'Code For Good Participant',
         duration: 'October 2023',
         link: 'https://example.com/jpmorgan-code-for-good',
@@ -30,20 +29,12 @@ export default function Experience() {
         skills: ['MERN Stack', 'Agile Methodology', 'NPOs'],
       },
       {
-        company: 'JPMorgan Software Engineering Virtual Experience Program',
+        company: "Forage",
         position: 'Participant',
-        duration: 'January 2023',
-        link: 'https://example.com/jpmorgan-software-engineering-vep',
-        description: 'Completed the Software Engineering Virtual Experience Program on Forage. Developed software solutions using Python, React, and Typescript to analyze financial data, visualize trading patterns, and automate testing.',
-        skills: ['python', 'typescript', 'open-source contributor'],
-      },
-      {
-        company: 'JPMorgan Agile Virtual Experience Program',
-        position: 'Participant',
-        duration: 'March 2023',
-        link: 'https://example.com/jpmorgan-agile-vep',
-        description: 'Participated in the Agile Virtual Experience Program on Forage. Worked on a virtual project that involved implementing agile practices such as user stories, sprints, and retrospectives to develop a software solution to analyze financial data.',
-        skills: ['User Stories', 'Backlog Refinement', 'Sprint Reviews & Retrospectives'],
+        duration: 'Virtual Certificates',
+        link: 'https://linkedin.com/aafamuyi',
+        description: 'I developed software solution using Python, React, and Typescript to analyze financial data, visualize trading patterns, and automate testing. I also worked on a virtual project that involved implementing agile practices such as user stories, sprints, and retrospectives to develop a software solution to analyze financial data',
+        skills: ['python', 'typescript', 'scrum process', 'backlog refinement'],
       },
   ];
 
