@@ -19,24 +19,24 @@ export default function Projects() {
                      body="Self-learning project - Follow my notes!"
                      link="https://github.com/doyxn/CommitOverflow2023"
                      />
-                     <Card 
+                     {/* <Card 
                      title="Using {Q.Alg} & 3D Hermite Splines"
                      imageUrl={qkit}
                      body="Self-learning project - Follow my notes!"
                      link="https://github.com/doyxn/CommitOverflow2023"
-                     />
-                  <Card
+                     /> */}
+                  {/* <Card
                      title="Using {Q.Alg} & 3D Hermite Splines"
                      imageUrl={qkit}
                      body="Using this algorithm to create and map 3d hermite splines to simulate x, y, and z!"
                      link="https://medium/doyean"
-                     />
-                  <Card 
+                     /> */}
+                  {/* <Card 
                      title="Google Gemini $ Kaggle Competitions"
                      imageUrl={portfolio}
                      body="Using Gemini to simplify Kaggle write-ups"
                      link="https://kaggle.com"
-                     />
+                     /> */}
                   <Card 
                      title="doyxn.github.io"
                      imageUrl={portfolio}
