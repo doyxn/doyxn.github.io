@@ -46,7 +46,6 @@ export default function Experience() {
     setCurrentSlide((prev) => (prev === 0 ? experienceData.length - 1 : prev - 1));
   };
 
-  const allCompanies = experienceData.map(experience => experience.company);
 
   return (
     <div className = "App">
