@@ -1,15 +1,20 @@
-import { Link} from "react-scroll"
+import React from 'react';
+import '../stylesheets//Navbar.css'; // Add custom styling
 
-export default function Navbar() {
-
-    return (
-        <nav className="nav">
-            <Link to="/pages/Home" className="site-title">ADEDOYIN.</Link>
-            <ul>
-                <li><Link to="about" smooth={true} duration={500}>ABOUT ME</Link></li>
-                <li><Link to="projects" smooth={true} duration={500}>PROJECTS</Link></li>
-                <li><Link to="experience" smooth={true} duration={500}>EXPERIENCE</Link></li>
-            </ul>
-        </nav>
-    )
+function Navbar() {
+  return (
+    <nav className="navbar">
+      <div className="navbar-logo">
+        Adedoyin Famuyiwa
+      </div>
+      <ul className="navbar-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  );
 }
+
+export default Navbar;

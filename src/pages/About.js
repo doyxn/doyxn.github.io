@@ -51,9 +51,6 @@ export default function About() {
                         </button>
                     </div>
                 </div>
-                <div className={`profile-image ${isColumnMode ? "column-mode" : ""}`}>
-                    <img src={profileImage} alt="Profile" />
-                </div>
             </header>
         </div>
     );

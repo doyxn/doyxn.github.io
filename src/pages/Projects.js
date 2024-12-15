@@ -15,7 +15,6 @@ export default function Projects() {
                <div className="projects-card-content"> 
                <Card 
                      title="Using {Q.Alg} & 3D Hermite Splines"
-                     imageUrl={splines}
                      body="Self-learning project - Follow my notes!"
                      link="https://github.com/doyxn/CommitOverflow2023"
                      />
@@ -39,7 +38,6 @@ export default function Projects() {
                      /> */}
                   <Card 
                      title="doyxn.github.io"
-                     imageUrl={portfolio}
                      body="Built on React and deployed on GitHub pages. Designed by me <3"
                      link="https://github.com/doyxn/doyxn.github.io/tree/main"
                      />
@@ -48,12 +46,11 @@ export default function Projects() {
                      imageUrl={profileImage}
                      body=""
                      /> */}
-                  <Card 
+                  {/* <Card 
                      title="BBE Trailer Video"
-                     imageUrl={bbe}
                      body="As a member of Purdue Student Government, I've had the amazing opportunity to work on short film to highlight my experience as a Black student at Purdue University!"
                      link = "https://www.youtube.com/watch?v=sTqUg7Q9K44"
-                     />
+                     /> */}
                         
                   </div>
                </div>

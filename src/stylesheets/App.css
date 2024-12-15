@@ -158,11 +158,11 @@
 
 /* Card styles */
 .card-container {
-  width: 22rem;
-  height: 32rem; 
+  width: 41rem;
+  height: 14rem; 
   overflow: hidden;
   box-shadow: 0rem 0rem .938rem -0.313rem;
-  transition: 0.5s;
+  transition: 0.1s;
   animation: ease-in;
   justify-content:space-around;
   margin: 0.75rem;
@@ -173,19 +173,8 @@
 }
 
 .card-container:hover {
-  transform: scale(1.1);
-  box-shadow: 0cap 0rem .938rem 0rem;
-
-  .card-title {
-    color: #ff4500
-  }
-}
-
-.card-image-container img {
-  overflow: hidden;
-  width: 100%;
-  object-fit: cover;
-  background-color: #ffffff;
+  transform: scale(1.001);
+  box-shadow: 0cap 0rem .438rem 0rem;
 }
 
 .card-content {
