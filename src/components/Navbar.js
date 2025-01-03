@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from"react-router-dom";
 import '../stylesheets/App.css';
 import headshot from "./images/headshot.png"
 
@@ -13,8 +14,8 @@ const Navbar = () => {
             className="profile-picture"
           />
           <div className="profile-info">
-            <h1>Aidan Andrews</h1>
-            <p>Mathematics & Computer Science, Aspiring Savant</p>
+            <h1>Adedoyin A. Famuyiwa</h1>
+            <p>Mathematics & Computer Science</p>
             <p>West Lafayette, Indiana</p>
             {/* <div className="contact-links">
               <a href="#email">Email</a> | <a href="#phone">Phone</a> |{' '}
@@ -25,18 +26,10 @@ const Navbar = () => {
         </div>
       </header>
       <nav className="navigation-bar">
-        <a href="#about" className="nav-link">
-          About
-        </a>
-        <a href="#projects" className="nav-link">
-          Projects
-        </a>
-        <a href="#bookshelf" className="nav-link">
-          Bookshelf
-        </a>
-        <a href="#blog" className="nav-link">
-          Blog
-        </a>
+        <Link to ="/about" className="nav-link"> ABOUT </Link>
+        <Link to ="/projects" className="nav-link"> PROJECTS</Link>
+        <Link to ="/bookshelf" className="nav-link">BOOKSHELF</Link>
+        <Link to ="/blog" className="nav-link">BLOG</Link>
       </nav>
     </>
   );

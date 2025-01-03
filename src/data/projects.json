@@ -1,0 +1,23 @@
+[
+    {
+        "title" : "This Portfolio Site",
+        "description" : "Built using React, hosted on Github pages",
+        "link" : ""
+    },
+    {
+        "title" : "Research Paper of Some Kind",
+        "description" : "Probably a literature review, concept guide.",
+        "link" : ""
+    },
+    {
+        "title" : "JPMorgan Chase Code for Good",
+        "description" : "Participated in the Code For Good event, where I developed an MVP for an NGO in the greater Chicago area. Utilized MongoDB, Express.js, Node.js, and Agile Methods",
+        "link" : ""
+    },
+    {
+        "title" : "Stock Price ML Estimator",
+        "description" : "Using headlines featured inn Bloomberg, I endeavor to predict inflation/deflationn of choice stocks.",
+        "link" : ""
+    }
+
+]

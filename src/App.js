@@ -1,25 +1,28 @@
-import Navbar from "./components/Navbar"
-import Footer from "./components/Footer"
-import Home from "./components/pages/Home"
-import About from "./components/pages/About"
-import Projects from "./components/pages/Projects"
-import Experience from "./components/pages/Experience"
-//import Error404 from "./components/Error404"
-import "./stylesheets/Carousel.css"
-import './stylesheets/App.css'
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Bookshelf from './pages/Bookshelf';
+import Blog from './pages/Blog';
+import './stylesheets/Carousel.css';
+import './stylesheets/App.css';
 
 function App() {
-  return ( 
-    <>
-      <Navbar />
-      <div id = "home"><Home/></div>
-      <div id = "about"><About /></div>
-      <div id = "projects"><Projects /></div>
-      <div id = "experience"><Experience /></div>
-      <Footer />
-    </>
-  )
+  return (
+    <Router>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/about" element = {<About />} />
+          <Route path="/projects" element = {<Projects />} />
+          <Route path="/bookshelf" element = {<Bookshelf />} />
+          <Route path="/blog" element = {<Blog />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
+  );
 }
 
 export default App;

@@ -1,4 +1,4 @@
-import professionalShot from "../images/1700146765465.jpg"
+import professionalShot from "../components/images/1700146765465.jpg"
 import isColumnMode from "./About"
 export default function Home() {
     return (

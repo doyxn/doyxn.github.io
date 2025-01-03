@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Carousel from "../Carousel"; 
+import Carousel from "../components/Carousel"; 
 
 
 export default function Experience() {

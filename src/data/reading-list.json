@@ -1,0 +1,12 @@
+[
+    {
+        "title" : "The Secret History",
+        "author" : "Donna Tartt",
+        "currently" : true
+    },
+    {
+        "title" : "The Alchemist",
+        "author" : "Paulo Cuello",
+        "currently" : false
+    }
+]

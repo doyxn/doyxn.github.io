@@ -22,25 +22,25 @@ export default function Carousel({ experienceData}) {
             </div>
           ))}
         </div>
-          <div className ="carousel-content">
-            <div className = "carousel-title">
-              <h3>{experienceData[currentSlide].company}</h3>
-            </div>
-            <br></br>
-              <p id="carousel-text">{experienceData[currentSlide].position}</p>
-              <p id="carousel-text">{experienceData[currentSlide].duration}</p>
-              <p id="carousel-text">{experienceData[currentSlide].description}</p> 
-              <br></br>      
-              {experienceData[currentSlide].skills && (
-                <div className = "carousel-skills">
-                  <ul className = "carousel-custom-bullet">
-                    {experienceData[currentSlide].skills.map((skill, index) => ( 
-                    <li key = {index}>{skill}</li>
-                    ) )}
-                  </ul>
-                </div>
-              )}    
+        <div className ="carousel-content">
+          <div className = "carousel-title">
+            <h3>{experienceData[currentSlide].company}</h3>
           </div>
+          <br></br>
+            <p id="carousel-text">{experienceData[currentSlide].position}</p>
+            <p id="carousel-text">{experienceData[currentSlide].duration}</p>
+            <p id="carousel-text">{experienceData[currentSlide].description}</p> 
+            <br></br>      
+            {experienceData[currentSlide].skills && (
+              <div className = "carousel-skills">
+                <ul className = "carousel-custom-bullet">
+                  {experienceData[currentSlide].skills.map((skill, index) => ( 
+                  <li key = {index}>{skill}</li>
+                  ) )}
+                </ul>
+              </div>
+            )}    
+        </div>
         
       </div>
                 <br></br>

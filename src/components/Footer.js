@@ -1,7 +1,6 @@
 import heartImage from "./images/beating_heart.png"
 import linkedinIcon from "./images/icons/linkedin.svg"
 import githubIcon from "./images/icons/github-square.svg"
-import leetcodeIcon from "./images/icons/leetcode.svg"
 import "../stylesheets/App.css"
 
 export default function Footer() {
@@ -15,9 +14,6 @@ export default function Footer() {
                 </a>
                 <a href="https://github.com/doyxn" target="_blank" rel="noreferrer"> 
                     <img src={githubIcon} alt="GitHub"/>
-                </a>
-                <a href="https://leetcode.com/doyxn" target="_blank" rel="noreferrer"> 
-                    <img src={leetcodeIcon} alt="LeetCode"/>
                 </a>
             </div>
         </div>

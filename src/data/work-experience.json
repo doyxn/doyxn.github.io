@@ -1,0 +1,22 @@
+[
+    {
+        "title": "JPMorgan Chase & Co. - Academic Intern",
+        "dates" : "September 2024 - May 2024",
+        "description" : "As an Academic intern, I have contributed tot the modernization of AML/KYC data systems by working with technologies like Apache Avro and AWS (Elasticache, Cassandra, S3), to optimize data processing and storage. I have been involved in designing and implementing data pipelines, utilizing Avro for schema management and serialization. I've also worked with AWS infrastructure, including Elasticache for caching and Cassandra for scalable distributed data storage - helping to improve the performance and reliability of AML/KYC data workflows. Moving forwards, I will build upon my intern project and develop and MVP to present to project owners, aiming to deliver a scalable and robust solution that meets business and regulatory requirements."
+    },
+    {
+        "title": "JPMorgan Chase & Co. - Summer Intern",
+        "dates" : "June 2024 - August 2024",
+        "description" : "I worked in Controls under the AML/KYC team. I developed backend services using Spring Boot, Redis, and Elasticache, enhancing performance and reducing response times. I implemented a Random Forest Classifier to streamline AML derivations and collaborated in a hackathon to integrate innovative KYC functionality using Synthetic Data Vault. My intern project placed 2nd in end-of-summer presentations, and I ranked in the top 20% of North American and European Chase interns in the Secure Code Competition. Additionally, I participated in Agile sprints, led discussions, and facilitated decisions to keep deliverables on track."
+    },
+    {
+        "title": "The Sparks Foundation - Graduate Rotational Intern",
+        "dates" : "June 2023 - July 2023",
+        "description" : "As a remote intern, I participated in the Graduate Rotational Intern Program with a focus on Computer Vision & IoT in June 2023 and Data Science & Business Analytics in July 2023. Developed custom image processing algorithms for computer vision applications, created applications for facial and emotion recognition, and automated optical inspection. Used Raspberry Pu, Nvidia Jetson, and microcontroller sin IoT projects."
+    },
+    {
+        "title": "Ware RG - Undergraduate Research Assistant",
+        "dates" : "Fall 2021 - Spring 2022",
+        "description" : "Worked as an Undergraduate Research Assistant. We measured the impact of youth engagement in different types of informal education programming on leadership, academic, and STEM development. Co-wrote proposals, develop lesson plans, schedule meetings, and assisted in managing team resources."
+    }
+]

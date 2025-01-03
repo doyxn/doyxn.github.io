@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import profileImage from "../images/profile.jpg";
+import workExperience from "../data/work-experience.json";
 
 export default function About() {
     const [isColumnMode, setColumnMode] = useState(false);
@@ -34,13 +34,13 @@ export default function About() {
                             <>
                                 <p style={{ textAlign: "left" }}>
                                     I'm a computer science and mathematics student dedicated to growth. Look around to learn about my past experience, projects, and hobbies!  ദ്ദി ˉ͈̀꒳ˉ͈́ )✧
-                                </p><br></br>
+                                </p>
                                 <p style={{ textAlign: "left" }}>
                                     My fascination with the beauty of mathematics has always driven my passion for problem-solving. I bring those solutions to life through computer science — transforming ideas into tangible creations.
-                                </p><br></br>
+                                </p>
                                 <p style={{ textAlign: "left" }}>
                                     Aside from my academics, my current hobbies include: reading (link here), watching documentaries, and ???
-                                </p><br></br>
+                                </p>
                                 <p style={{ textAlign: "left" }}>
                                     While a lot of my learning comes from the classroom, I've also learned a lot from the many endeavors I've taken along the way. My projects showcase my various interests and hobbies persued through my personal journey.
                                 </p>
@@ -49,6 +49,16 @@ export default function About() {
                         <button onClick={toggleVersion} style={{ marginTop: "1em" }}>
                             {isShortVersion ? "long version" : "short version"}
                         </button>
+                    </div>
+                    <div className="work-experience">
+                        <h2>Work Experience</h2>
+                            {workExperience.map((experience, index) => (
+                            <div key={index} className="work-experience-item">
+                                <h4>{experience.title}</h4>
+                                <p><strong>{experience.dates}</strong></p>
+                                <p>{experience.description}</p>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </header>
