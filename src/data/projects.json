@@ -2,22 +2,17 @@
     {
         "title" : "This Portfolio Site",
         "description" : "Built using React, hosted on Github pages",
-        "link" : ""
-    },
-    {
-        "title" : "Research Paper of Some Kind",
-        "description" : "Probably a literature review, concept guide.",
-        "link" : ""
+        "link" : "https://github.com/doyxn/doyxn.github.io/tree/gh-pages"
     },
     {
         "title" : "JPMorgan Chase Code for Good",
         "description" : "Participated in the Code For Good event, where I developed an MVP for an NGO in the greater Chicago area. Utilized MongoDB, Express.js, Node.js, and Agile Methods",
-        "link" : ""
+        "link" : "https://github.com/cfgchicago23/Team-14"
     },
     {
-        "title" : "Stock Price ML Estimator",
-        "description" : "Using headlines featured inn Bloomberg, I endeavor to predict inflation/deflationn of choice stocks.",
-        "link" : ""
+        "title" : "Black Boilermaker Experience Trailor",
+        "description" : "As a member of Purdue Student Government, I've had the amazing opportunity to work on short film to highlight my experience as a Black student at Purdue University!",
+        "link" : "https://www.youtube.com/watch?v=sTqUg7Q9K44"
     }
 
 ]

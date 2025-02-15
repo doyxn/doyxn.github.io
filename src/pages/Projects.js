@@ -1,24 +1,27 @@
-import Card from "../components/Card"
-import projects from "../data/projects.json"
+import Card from "../components/Card";
+import project from "../data/projects.json";
 
 export default function Projects() {
-
-   return (
-      <div className="App">
-         <div className="App-Header">
-            <div className="content">
-               <div className="projects">
-                  <h2>Projects</h2>
-                  {projects.map((experience, index) => (
-                     <div key={index} className="work-experience-item">
-                        <h4>{experience.title}</h4>
-                        <p><strong>{experience.dates}</strong></p>
-                        <p>{experience.description}</p>
-                     </div>
-                  ))}
-               </div>
-            </div>
-         </div>
-      </div>
-   );
+    return (
+        <div className="App">
+            <header className="App-header">
+                <div className="content">
+                    <div className="project-experience">
+                        <h2>Selected Projects</h2>
+                        <p>More to be published soon...</p>
+                        <div className="card-grid">
+                            {project.map((work, index) => (
+                                <Card
+                                    key={index}
+                                    title={work.title}
+                                    body={work.description}
+                                    link={work.link}
+                                />
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    );
 }
