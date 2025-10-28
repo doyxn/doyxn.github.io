@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import workExperience from "../data/work-experience.json";
+import workExperience from "../../data/work-experience.json";
 
 export default function About() {
 
@@ -33,8 +33,7 @@ export default function About() {
                                 </p>
 
                                 <p style={{ textAlign: "left" }}>
-                                    Aside from my academics, my current hobbies include: reading (<a href="/bookshelf">link here</a>),
-                                    watching documentaries, and coding personal projects.
+                                    Aside from my academics, my current hobbies include: reading, card games, and my projects (<a href="/bookshelf">link here</a>)
                                 </p>
 
                                 <p style={{ textAlign: "left" }}>

@@ -2,6 +2,11 @@
     {
         "title": "JPMorgan Chase & Co. - Academic Intern",
         "dates" : "September 2024 - May 2024",
+        "description" : "I worked within the Controls subteam within AML/KYC. I co-developed and deployed an internal business rule engine using Drools, streamlining entity resolution and improving runtime performance by ~30%. This involved implementing complex rule logic with agenda groups, salience, and fact accumulation, as well as integrating JMeter for performance and integration testing to optimize memory and execution time. Beyond the core engine, I collaborated with engineers, architects, and product teams to design internal tooling and LLM-based support that made rule authoring and analysis more accessible and efficient across the organization."
+    },
+    {
+        "title": "JPMorgan Chase & Co. - Academic Intern",
+        "dates" : "September 2024 - May 2024",
         "description" : "As an Academic intern, I have contributed to the modernization of AML/KYC data systems by working with technologies like Apache Avro and AWS (Elasticache, Cassandra, S3) to optimize data processing and storage. I'm involved in designing and implementing data pipelines, utilizing Avro for schema management and serialization. I've also worked with AWS infrastructure, including Elasticache for caching and Cassandra for scalable distributed data storage, which has helped to improve the performance and reliability of AML/KYC data workflows."
     },
     {

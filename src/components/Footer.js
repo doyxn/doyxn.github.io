@@ -1,6 +1,7 @@
-import heartImage from "./images/beating_heart.png"
-import linkedinIcon from "./images/icons/linkedin.svg"
-import githubIcon from "./images/icons/github-square.svg"
+import heartImage from "../images/beating_heart.png"
+import linkedinIcon from "../images/icons/linkedin.svg"
+import githubIcon from "../images/icons/github-square.svg"
+
 import "../stylesheets/App.css"
 
 export default function Footer() {

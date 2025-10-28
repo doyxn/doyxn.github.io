@@ -59,8 +59,8 @@ const BlogPost = () => {
       <header className="App-header">
         <div className="content">
           <h1>{metadata.title || "Untitled Post"}</h1>
-          <p><strong>Author:</strong> {metadata.author || "Unknown"}</p>
-          <p><strong>Date:</strong> {metadata.date || "No date provided"}</p>
+          <p><strong>Author:</strong> {metadata.author || "Adedoyin A. Famuyiwa"}</p>
+          <p><strong>Date:</strong> {metadata.date || ""}</p>
           <p><strong>Tags:</strong> {metadata.tags ? metadata.tags.join(", ") : "No tags"}</p>
           <hr />
           {/* Use components for markdown rendering */}

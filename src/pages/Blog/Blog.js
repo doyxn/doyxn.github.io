@@ -1,5 +1,5 @@
-import blurbs from "../data/blog-card.json";
-import Card from "../components/Card";
+import blurbs from "../../data/blog-card.json";
+import Card from "../../components/Card";
 
 const Blog = () => {
 
@@ -18,7 +18,7 @@ const Blog = () => {
                 key={index}
                 title={blurb.title}
                 body={blurb.description}
-                link={`/blog/${blurb.link}`} // Dynamic link
+                link={`/#/blog/${blurb.link}`} // Dynamic link
               />
             ))}
           </div>

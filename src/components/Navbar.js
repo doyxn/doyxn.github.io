@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from"react-router-dom";
 import '../stylesheets/App.css';
-import headshot from "./images/headshot.png"
+import headshot from "../images/headshot.png"
 
 const Navbar = () => {
   return (
@@ -23,8 +23,6 @@ const Navbar = () => {
       <nav className="navigation-bar">
         <Link to ="/about" className="nav-link"> ABOUT </Link>
         <Link to ="/projects" className="nav-link"> PROJECTS</Link>
-        <Link to ="/bookshelf" className="nav-link">BOOKSHELF</Link>
-        <Link to ="/blog" className="nav-link">BLOG</Link>
       </nav>
     </>
   );
