@@ -1,17 +1,38 @@
 [
     {
+        "title" : "Sentiment Analysis",
+        "description" : "Predicts stock movement based on Bloomberg news articles using NLP and various ML models.",
+        "tags" : ["Python", "NLP", "Machine Learning"],
+        "link" : ""
+    },
+    {
+        "title" : "KJ-Orbital",
+        "description" : "Electron Application, bringing Katherine Johnson's technical reports to digital simulation.",
+        "tags" : ["Electron.js", "Physics", "Technical Report"],
+        "link" : "https://github.com/doyxn/kj-orbital"
+    },
+    {
+        "title" : "INKPress",
+        "description" : "React Component Library for dynamic blogging using Markdown and MDX.",
+        "tags" : ["React", "Component Library", "Markdown"],
+        "link" : "https://github.com/doywn/INKPress"
+    },
+    {
         "title" : "This Portfolio Site",
         "description" : "Built using React, hosted on Github pages",
+        "tags" : ["React", "GitHub Pages"],
         "link" : "https://github.com/doyxn/doyxn.github.io/tree/gh-pages"
     },
     {
         "title" : "JPMorgan Chase Code for Good",
         "description" : "Participated in the Code For Good event, where I developed an MVP for an NGO in the greater Chicago area. Utilized MongoDB, Express.js, Node.js, and Agile Methods",
+        "tags" : ["MERN"],
         "link" : "https://github.com/cfgchicago23/Team-14"
     },
     {
         "title" : "Black Boilermaker Experience Trailor",
         "description" : "As a member of Purdue Student Government, I've had the amazing opportunity to work on short film to highlight my experience as a Black student at Purdue University!",
+        "tags" : [ "Video Production", "Storytelling"],
         "link" : "https://www.youtube.com/watch?v=sTqUg7Q9K44"
     }
 

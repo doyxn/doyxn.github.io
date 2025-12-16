@@ -1,16 +1,30 @@
+/* Base Card */
+
 .card-container {
-  width: 100%; 
+  width: 100%;
   background-color: white;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: box-shadow 0.3s ease;
-  margin-bottom: 2em;  
+  margin-bottom: 2em;
 }
 
 .card-container:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
+
+/* Project Card Variant */
+
+.card-container-project-card {
+  width: 95%;
+}
+
+.card-container-project-card:hover {
+  box-shadow: 0 4px 8px rgba(135, 135, 245, 0.5);
+}
+
+/* Content */
 
 .card-content {
   padding: 16px;
@@ -30,7 +44,30 @@
   margin-bottom: 16px;
 }
 
+/* Tags */
+
+.card-tags {
+  padding: 0 16px 8px;
+}
+
+.card-tag {
+  display: inline-block;
+  background-color: rgba(135, 135, 245, 0.15);
+  color: #333;
+  padding: 4px 14px;
+  margin: 4px 6px 4px 0;
+  border-radius: 999px;
+  font-size: 0.85em;
+  border: 1px solid rgb(135, 135, 245);
+  font-weight: 500;
+}
+
+/* Footer */
+
 .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 8px 16px 16px;
 }
 
@@ -46,4 +83,11 @@
 
 .card-footer a:hover {
   color: #1976d2;
+}
+
+.card-footer img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  transition: transform 0.2s ease;
 }

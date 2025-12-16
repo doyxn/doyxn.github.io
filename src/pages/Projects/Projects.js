@@ -1,5 +1,6 @@
-import Card from "../components/Card";
-import project from "../data/projects.json";
+import Card from "../../components/Card";
+import ProjectCard from "./ProjectCard"
+import project from "../../data/projects.json";
 
 export default function Projects() {
     return (
@@ -8,13 +9,13 @@ export default function Projects() {
                 <div className="content">
                     <div className="project-experience">
                         <h2>Selected Projects</h2>
-                        <p>More to be published soon...</p>
                         <div className="card-grid">
                             {project.map((work, index) => (
-                                <Card
+                                <ProjectCard className="project-card"
                                     key={index}
                                     title={work.title}
                                     body={work.description}
+                                    tags = {work.tags}
                                     link={work.link}
                                 />
                             ))}

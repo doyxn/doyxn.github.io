@@ -10,7 +10,6 @@
 .App-header {
     max-width: 900px;
     width: 100%;
-    /* Allow content to shrink on smaller screens */
 }
 
 .header-container {
@@ -90,55 +89,15 @@ h2 {
     margin-top: 2em;
 }
 
+/* Projects grid layout */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
 .project-experience-item {
     margin-bottom: 1.5em;
-}
-
-/* .work-experience-item {
-    margin-bottom: 1.5em;
-    padding: 1em;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-  }
-  
-.work-experience-item h3 {
-    margin-bottom: 0.5em;
-}
-
-.work-experience-item p {
-    margin: 0.2em 0;
-} */
-
-.blog-post {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* Horizontally centers the content */
-    justify-content: center;
-    /* Vertically centers the content */
-    text-align: center;
-    /* Ensures text is centered */
-    max-width: 800px;
-    /* You can adjust the max-width as needed */
-    margin: 0 auto;
-    /* Centers the element horizontally in its container */
-    padding: 20px;
-    /* Adds some spacing inside the blog container */
-}
-
-.blog-post h1 {
-    font-size: 2em;
-    /* You can adjust the font size as needed */
-}
-
-.blog-post p {
-    font-size: 1.1em;
-    line-height: 1.5;
-}
-
-.markdown-content p {
-    margin-bottom: 1em; /* Forces spacing */
 }
 
 .footer-container {

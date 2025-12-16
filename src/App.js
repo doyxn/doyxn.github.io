@@ -2,7 +2,7 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import About from './pages/About/About';
-import Projects from './pages/Projects';
+import Projects from './pages/Projects/Projects';
 import Blog from './pages/Blog/Blog';
 import BlogPost from "./pages/Blog/BlogPost"; 
 import './stylesheets/card.css';
