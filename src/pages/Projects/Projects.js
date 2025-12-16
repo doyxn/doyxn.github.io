@@ -1,4 +1,3 @@
-import Card from "../../components/Card";
 import ProjectCard from "./ProjectCard"
 import project from "../../data/projects.json";
 

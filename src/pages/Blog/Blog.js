@@ -3,10 +3,6 @@ import Card from "../../components/Card";
 
 const Blog = () => {
 
-  const getExcerpt = (content, wordLimit = 20) => {
-    return content.split(" ").slice(0, wordLimit).join(" ") + "...";
-};
-
   return (
     <div className="App">
       <header className="App-header">
