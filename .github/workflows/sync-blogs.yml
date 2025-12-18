@@ -1,0 +1,29 @@
+name: Sync Blog Posts
+
+on:
+  workflow_dispatch:
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout portfolio repo
+        uses: actions/checkout@v4
+
+      - name: Checkout blog repo
+        uses: actions/checkout@v4
+        with:
+          repository: doyxn/doyxn.github.io.stack
+          path: blogs
+
+      - name: Replace blog content
+        run: |
+          rsync -av blogs/*.md src/pages/Writing/
+
+      - name: Commit & push changes
+        run: |
+          git config user.name "blog-sync-bot"
+          git config user.email "actions@github.com"
+          git add src/pages/Writing/
+          git diff --cached --quiet || git commit -m "Sync blog posts"
+          git push
