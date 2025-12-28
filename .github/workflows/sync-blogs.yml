@@ -9,17 +9,14 @@ jobs:
     steps:
       - name: Checkout portfolio repo
         uses: actions/checkout@v4
-
       - name: Checkout blog repo
         uses: actions/checkout@v4
         with:
           repository: doyxn/doyxn.github.io.stack
           path: blogs
-
       - name: Replace blog content
         run: |
           rsync -av blogs/*.md src/pages/Writing/
-
       - name: Commit & push changes
         run: |
           git config user.name "blog-sync-bot"
@@ -27,3 +24,5 @@ jobs:
           git add src/pages/Writing/blogs
           git diff --cached --quiet || git commit -m "Sync blog posts"
           git push
+      - name : build and deploy
+        run: npm run build
