@@ -21,7 +21,7 @@ jobs:
         run: |
           git config user.name "blog-sync-bot"
           git config user.email "actions@github.com"
-          git add src/pages/Writing/blogs
+          git add src/pages/Writing
           git diff --cached --quiet || git commit -m "Sync blog posts"
           git push
       # - name : build and deploy
