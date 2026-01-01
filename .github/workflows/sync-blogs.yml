@@ -16,7 +16,7 @@ jobs:
           path: blogs
       - name: Replace blog content
         run: |
-          rsync -av blogs/*.md src/pages/Writing/
+          rsync -av blogs/*.js src/pages/Writing/
       - name: Commit & push changes
         run: |
           git config user.name "blog-sync-bot"
