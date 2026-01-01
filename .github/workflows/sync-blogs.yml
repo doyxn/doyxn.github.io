@@ -20,7 +20,6 @@ jobs:
 
       - name: Replace blog content
         run: |
-          mkdir -p src/pages/Writing
           rsync -av --delete blogs/.generated/ src/pages/Writing/
 
       - name: Commit & push changes
