@@ -25,8 +25,12 @@
 }
 
 /* Writing Card Variant */
+
 .card-container-writing-card {
-  width: 95%;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 2em;
+  grid-column: 1 / -1;
 }
 
 .card-container-writing-card:hover {
