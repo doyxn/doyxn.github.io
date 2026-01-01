@@ -24,6 +24,15 @@
   box-shadow: 0 4px 8px rgba(135, 135, 245, 0.5);
 }
 
+/* Writing Card Variant */
+.card-container-writing-card {
+  width: 95%;
+}
+
+.card-container-writing-card:hover {
+  box-shadow: 0 4px 8px rgba(135, 135, 245, 0.5);
+}
+
 /* Content */
 
 .card-content {

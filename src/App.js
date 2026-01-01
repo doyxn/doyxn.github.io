@@ -3,7 +3,8 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import About from './pages/About/About';
 import Projects from './pages/Projects/Projects';
-// import Blog from './pages/Blog/Blog';
+import Writing from './pages/Writing/Writing';
+import BlogPost from './pages/Writing/BlogPost';
 import './stylesheets/card.css';
 import './stylesheets/App.css';
 import './stylesheets/index.css';
@@ -17,7 +18,10 @@ function App() {
           <Route path='/' element = {<About />} />
           <Route path="/about" element = {<About />} />
           <Route path="/projects" element = {<Projects />} />
-          {/* <Route path="/blog" element = {<Blog />} /> */}
+          {/* Blog Writing Routing */}
+          <Route path="/writing" element = {<Writing />} />
+          <Route path="/blog/:slug" element = {<BlogPost />} />
+
         </Routes>
         <Footer />
       </div>
