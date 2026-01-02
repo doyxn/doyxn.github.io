@@ -1,6 +1,7 @@
 import README from "./README";
 import TestAction from "./test-action";
 import TestBlog from "./test-blog";
+import TestMath from "./testmath";
 
 export const blogs = {
   "README": {
@@ -22,5 +23,12 @@ export const blogs = {
     description: "",
     tags: [],
     component: TestBlog,
+  },
+
+  "testmath": {
+    title: "Math Test Page",
+    description: "A page to test rendering of mathematical expressions using KaTeX.",
+    tags: ["math", "katex", "markdown"],
+    component: TestMath,
   },
 };

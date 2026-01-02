@@ -8,6 +8,8 @@ import BlogPost from './pages/Writing/BlogPost';
 import './stylesheets/card.css';
 import './stylesheets/App.css';
 import './stylesheets/index.css';
+import "katex/dist/katex.min.css";
+
 
 function App() {
   return (
