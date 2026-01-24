@@ -1,24 +1,13 @@
 [
-    {
-        "title" : "Sentiment Analysis",
-        "description" : "Predicts stock movement based on Bloomberg news articles using NLP and various ML models.",
-        "tags" : ["Python", "NLP", "Machine Learning"],
-        "link" : ""
-    },
+    
     {
         "title" : "KJ-Orbital",
         "description" : "Electron Application, bringing Katherine Johnson's technical reports to digital simulation.",
-        "tags" : ["Electron.js", "Physics", "Technical Report"],
+        "tags" : ["WIP", "Electron.js", "Physics"],
         "link" : "https://github.com/doyxn/kj-orbital"
     },
     {
-        "title" : "INKPress",
-        "description" : "React Component Library for dynamic blogging using Markdown and MDX.",
-        "tags" : ["React", "Component Library", "Markdown"],
-        "link" : "https://github.com/doyxn/INKPress"
-    },
-    {
-        "title" : "This Portfolio Site",
+        "title" : "doyean.com - Personal Website",
         "description" : "Built using React, hosted on Github pages",
         "tags" : ["React", "GitHub Pages"],
         "link" : "https://github.com/doyxn/doyxn.github.io/tree/gh-pages"

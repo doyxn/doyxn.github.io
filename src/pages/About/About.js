@@ -33,7 +33,7 @@ export default function About() {
                                 </p>
 
                                 <p style={{ textAlign: "left" }}>
-                                    Aside from my academics, my current hobbies include: reading, card games, and my projects (<a href="/bookshelf">link here</a>)
+                                    Aside from my academics, my current hobbies include: reading, card games, and my projects (<a href="/projects">link here</a>)
                                 </p>
 
                                 <p style={{ textAlign: "left" }}>
