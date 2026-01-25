@@ -3,8 +3,8 @@ import PortfolioBuildBlog from "./PortfolioBuildBlog";
 export const blogs = {
   "PortfolioBuildBlog": {
     title: "Portfolio Build Blog",
-    description: "tldr: GitHub pages, React, GitActions Workflow",
-    tags: ["-portfolio -perfsonal projects -react"],
+    description: "tldr: Rebuilt my portfolio using React, GitHub Actions, and a separate consistent repository. Now publishing articles or updating projects is automated & maintainable.",
+    tags: ["-portfolio -personal projects -react"],
     component: PortfolioBuildBlog,
   },
 };
