@@ -20,7 +20,7 @@ jobs:
 
       - name: Replace blog content
         run: |
-          rsync -av --delete blogs/.generated/ src/pages/Writing/blogs
+          rsync -av --delete blogs/.generated/blogs/ src/pages/Writing/blogs
 
       - name: Commit & push changes
         run: |
