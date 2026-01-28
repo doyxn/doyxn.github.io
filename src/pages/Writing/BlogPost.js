@@ -15,7 +15,6 @@ export default function BlogPost() {
     <div className="App">
       <header className="App-header">
         <div className="content">
-          <h1>{blog.title}</h1>
           <BlogComponent />
         </div>
       </header>
